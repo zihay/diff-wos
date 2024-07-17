@@ -1,0 +1,28 @@
+{
+    "python.testing.pytestArgs": [
+        "pytests",
+        "-s"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/build:${workspaceFolder}/build/python"
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder};${workspaceFolder}/build;${workspaceFolder}/build/python"
+    },
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.envFile": "${workspaceFolder}/.env",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none",
+    "files.associations": {
+        "cmath": "cpp",
+        "complex": "cpp",
+        "alignedvector3": "cpp"
+    },
+    "python.analysis.indexing": true,
+    "python.analysis.autoImportCompletions": true,
+}
