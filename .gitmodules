@@ -1,0 +1,6 @@
+[submodule "ext/lbvh"]
+	path = ext/lbvh
+	url = https://github.com/rsugimoto/lbvh.git
+[submodule "ext/eigen"]
+	path = ext/eigen
+	url = https://github.com/eigenteam/eigen-git-mirror.git
