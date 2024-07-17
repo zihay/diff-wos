@@ -6,6 +6,7 @@
   </a>
 </p>
 <br />
+
 This repository contains the code for reproducing the results from the paper ["A Differential Monte Carlo Solver For the Poisson Equation"](https://shuangz.com/projects/diff-wos-sg24/), Zihan Yu, Lifan Wu, Zhiqian Zhou, and Shuang Zhao, 2024.
 
 Getting started
@@ -14,7 +15,7 @@ The code is written in C++, CUDA, and Python. It has been tested on Ubuntu 20.04
 
 First, clone the repository:
 ```bash
-git clone --recursive 
+git clone --recurse-submodules https://github.com/zihay/diff-wos.git
 ```
 
 If you are using conda, you can create a new environment with the following command:
