@@ -43,7 +43,7 @@ Differentiable PDE Solve Examples
 
 Inverse PDE Solve Examples
 ---------------
-`inverse_solve` directory contains the inverse PDE solve examples. You can replicate the results by directly running the scripts in that directory. By default, the scripts will run the optimization with our method. To run the baseline methods, uncomment the corresponding lines in the scripts.
+`inv_solve` directory contains the inverse PDE solve examples. You can replicate the results by directly running the scripts in that directory. By default, the scripts will run the optimization with our method. To run the baseline methods, uncomment the corresponding lines in the scripts.
 
 Ablation Study
 ---------------
